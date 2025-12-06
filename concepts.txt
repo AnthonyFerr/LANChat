@@ -1,0 +1,5 @@
+Concept #1 - Binding
+The server needs to bind to a SPECIFIC address and port so that clients know who to connect to, so that's why it uses bind. 
+Since the server isn't initializing the connection with the client, the client doesn't need to bind to an address and port. 
+When I call socket, the client is being given these things dynamically by the OS. 
+
